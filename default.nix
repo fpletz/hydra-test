@@ -5,5 +5,5 @@ let
 in
 {
   inherit (pkgs) hello;
-  foo = "${foo}";
+  foo = "${foo.hello}";
 }
